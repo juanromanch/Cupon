@@ -39,7 +39,7 @@ class DefaultController extends Controller
     }
 
     /**
-     * @Route("/contacto", defaults={ "_locale"="es" }, name="contacto")
+     * @Route("/sitio/contacto", defaults={ "_locale"="es" }, name="contacto")
      *
      * Muestra el formulario de contacto y también procesa el envío de emails.
      *
